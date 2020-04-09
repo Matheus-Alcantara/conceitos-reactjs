@@ -16,7 +16,7 @@ function App() {
     const response = await api.post('repositories', {
       title: `Conceitos ReactJS ${Date.now()}`,
       url: `https://github.com/Matheus-Alcantara/conceitos-reactjs${Date.now()}`,
-      techs:["Node.JS","React"]
+      techs:["Node.JS","ReactJS", "ReactNative"]
     });
 
     const repository = response.data;
